@@ -1,0 +1,155 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+    gap: 8px;
+}
+
+.header-top {
+    margin-bottom: 80px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+    padding-bottom: 120px;
+}
+.hero-text {
+    flex-wrap: wrap;
+    width: 400px;   
+}
+.hero-bigtext {
+    font-size: 48px;
+    font-weight: 750;
+    color: #F9FAF8;
+    margin: 0;
+}
+.hero-smalltext {
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.info-head {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.harbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+.info {
+    text-align: center;
+    max-width: 200px;
+}
+.harbs .info img {
+    border: #3882F6 5px solid;
+    border-radius: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+.cytat {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 80px;
+}
+.textcytat {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.podpis {
+    margin-left: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.call {
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 12px;
+    align-items: center;
+    padding: 30px;
+    width: 1000px;
+}
+.call-text {
+    flex-wrap: wrap;
+    width: 500px;
+    color: #F9FAF8;
+}
+.call-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.call-opis{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.call button {
+    border-color: #F9FAF8;
+    height: 40px;
+    width: 120px;
+    
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
+    
+}   
